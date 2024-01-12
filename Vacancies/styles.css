@@ -3,39 +3,111 @@
     background-color: white;
     overflow: hidden;
     width: 100%;
-    margin: -10px;
+    margin: -20px;
     align-items: center;
+    padding: 20px;
   }
   
-  #page {
-    text-decoration: none;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-  }
-  #menu li a {
-    color: gray;
+#page {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-size: 15px;
+
+}
+#menu li a {
+  text-decoration: none;
+  color: gray;
+  text-align: center;
+  display: block;
+  
+
+}
+
+#login{
+  text-decoration: none;
+  align-items: right;
+  padding-left:20px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+button{
+  background-color: rgb(122, 6, 6);
+  color :white;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+#menu img {
+  height: 50px;
+  width: auto;
+  align-items: left;
+}
+
+#conteiner{
     text-align: center;
-    display: block;
-  }
-  
-  #menu li:hover {
+    height: 350px;
     width: 100%;
-    height: 100%;
-    background-color: #555;
+}
+#Sobrenós{
+  font-size: 25px;
+  color:rgb(122, 6, 6); 
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+#titulo{
+font-weight: bold;
+font-size: 50px;
+}
+#titulo1{
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: -180px;
   }
-  #login{
-    align-items: right;
-    padding-left:20px;
-    
-  }
-  button{
-    background-color: red;
-  }
-  
-  #menu img {
-    height: 50px;
-    width: auto;
-    align-items: left;
+#description{
+color: grey;
+font-size: 20px;
+}
+#description1{
+color: grey;
+font-size: 20px;
+margin-top: -17px;
+}
+#description2{
+color: grey;
+font-size: 15px;
+}
+#center-content {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+#numeros{
+  color:rgb(122, 6, 6);
+  font-size: 50px; 
+  font-weight: bolder;
+}
+#oqueé{
+  font-weight: bolder;
+  font-size: 20px;
+}
+#vagas{
+  color:rgb(122, 6, 6);  
+  background-color: rgb(235, 186, 186);
+  border-radius: 10px;
+  width: 110px;
+
+}
+.centralizado {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
   }

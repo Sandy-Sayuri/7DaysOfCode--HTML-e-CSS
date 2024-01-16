@@ -404,6 +404,11 @@ font-size: 15px;
   gap: 32px;
   flex-shrink: 0;
 }
+#perfil{
+  height: 70px;
+  background-color: antiquewhite;
+  border-radius: 40px;
+}
 footer{
   background-color: #abb9da;
 

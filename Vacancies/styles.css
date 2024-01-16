@@ -128,7 +128,7 @@ font-size: 15px;
       padding-left:20vw ;
     }
   }
-  @media screen and (min-width:2000px                           ){
+  @media screen and (min-width:2000px){
     #teste {
       padding-left:30vw ;
     }
@@ -262,8 +262,9 @@ font-size: 15px;
   text-align: center;
   display: block;
   height: 100%;
-  margin: 10px; ;
-  background-color: rgb(235, 186, 186);
+  margin: 10px; 
+  margin-right: 30px;
+  background-color: rgba(252, 210, 210, 0.308);
  }
   #colaborador{
     color:rgb(122, 6, 6);
